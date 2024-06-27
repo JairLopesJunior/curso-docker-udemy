@@ -1,0 +1,46 @@
+Dockerfile
+FROM, ARG, ENV, LABEL
+
+Um Dockerfile quase sempre começara com o parametro FROM ou ARG antes do FROM.
+
+Qual imagem será utilizada com base para criar a imagem customizada
+> FROM imagem
+
+É possivel criar um Dockerfile com multiplos FROM.
+
+
+
+ARG = Serve para configurar variaveis que iram estar presente apenas durante o Build, os comandos podem
+ser substituido quando executar o comando docker image build.
+
+Ex: > ARG CONTAINER_NAME_ARG=Container-A
+
+
+
+O ARG também pode definir variavel:
+
+Ex:
+> ARG TAG=3.16.2
+> FROM alpine:$TAG
+> ARG CONTAINER_NAME_ARG=Container-A
+
+
+
+
+
+ENV = Cria variavel de ambiente, diferente da que o ARG cria ela estara presente na imagem final e também não é possivel ser
+configurado no momento do build.
+
+Ex:
+> ENV CONTAINER_NAME=Container-A
+ou pode receber a variavel do ARG
+> ENV CONTAINER_NAME_ENV=$CONTAINER_NAME_ARG
+ou podemos definir alem do ARG, uma variavel default junto
+> CONTAINER_NAME_ENV=${CONTAINER_NAME_ARG:-Container-A}
+
+
+
+
+LABEL= Serve para organização/documentação e está presente na imagem final
+Ex:
+> LABEL maintainer="Jair Lopes"
