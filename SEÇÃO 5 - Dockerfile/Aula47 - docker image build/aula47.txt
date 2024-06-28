@@ -1,0 +1,16 @@
+docker image build
+
+O comando é bem simples, podem ser colocado opções no comando e um contexto no final.
+
+contexto= É o diretorio onde está o dockerfile, o docker copia todos os arquivos para o deamon do docker e assim
+todos os arquivos estaram disponiveis para ser utilizados.
+
+> docker image build . = O ponto é o contexto
+
+Para colocar nome na imagem
+
+> docker image build -t alpine:curso-docker-1.0 .
+
+
+Definindo valores para os ARGs
+> docker image build -t alpine:curso-docker-1.0 --build-arg TAG=3.13 --build-arg CONTAINER_NAME_ARG="Container B" .
