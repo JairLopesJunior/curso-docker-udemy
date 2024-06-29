@@ -1,0 +1,35 @@
+Dockerfile - COPY, ADD, WORKDIR e RUN
+
+
+
+WORKDIR = Serve para definir um diretorio onde alguns outros comandos correram. os comandos são: COPY, ADD, RUN, ENTRYPOINT e CMD.
+
+Quando menciona um WORKDIR é a mesma coisa que se estivesse alterando o diretorio atual em que os comandos seguintes iram correr.
+
+Pode conter multiplos WORKDIR em um dockerfile.
+
+Ele cria a pasta caso não exista.
+
+==============================================================
+
+COPY = Serve para copiar arquivo do HOST para dentro da imagem.
+
+Ex: 
+
+> COPY arquivo .
+
+==============================================================
+
+O ADD tem diversas funcionalidades algumas ate parecida com o COPY.
+
+Também serve para copiar um arquivo do HOST para imagem.
+
+Támbem copia arquivo de uma URL para dentro da imagem.
+
+Também copia imagem compactada com tar.gz para dentro da imagem e ja descompacta.
+
+====================================================================
+
+RUN = Serve para correr comandos sejam de instalação/configuração/remoção dentro da imagem.
+
+TODOS OS COMANDOS MENCIONADOS CRIAM NOVAS CAMADAS NA IMAGEM E QUANTO MAIS CAMADAS TER MAIOR FICA E MAIS ESPAÇO OCULPA. 
