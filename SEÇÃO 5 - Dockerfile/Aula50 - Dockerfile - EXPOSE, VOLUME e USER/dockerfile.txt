@@ -1,0 +1,12 @@
+FROM nginx:1.23.3-alpine
+
+COPY arquivosDaMaquina caminhoDoContainer
+COPY arquivosDaMaquina caminhoDoContainer
+
+RUN comandosASeremExecutados
+
+USER nomeUsuario
+
+EXPOSE 8010
+
+VOLUME /usr/share/nginx/html

@@ -1,0 +1,7 @@
+Dockerfile - EXPOSE, VOLUME e USER
+
+EXPOSE = Serve para definir uma porta para ser exposta no container.
+
+VOLUME = Serve para definir um volume que será automaticamente criado quando rodar o container.
+
+USER = Serve para definir um novo usuário para rodar os comandos do dockerfile.
