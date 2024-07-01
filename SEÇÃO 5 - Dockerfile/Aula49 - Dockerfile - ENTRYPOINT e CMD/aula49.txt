@@ -1,0 +1,13 @@
+DOCKERFILE - ENTRYPOINT e CMD
+
+ansible = É uma ferramenta que permite gerir maquinas linux ou Windows de forma remota, com ela podemos instalar/desinstalar pacotes,
+configurar as maquinas e dezenas de outras coisas também.
+
+Forma recomendada para fazer um ENTRYPOINT
+> ENTRYPOINT ["ansible", "--help"] = formato exec
+
+> CMD ["help"]
+
+O Docker usa o comando ENTRYPOINT e o comando do CMD como um complemento
+
+Na hora de criar a instancia do container o CMD pode ser substituido
