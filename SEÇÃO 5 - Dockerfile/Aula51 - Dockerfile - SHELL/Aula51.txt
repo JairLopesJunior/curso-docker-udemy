@@ -1,0 +1,3 @@
+Dockerfile - SHELL
+
+SHELL = Serve para alterar a SHELL default que vai correr os comandos do dockerfile.

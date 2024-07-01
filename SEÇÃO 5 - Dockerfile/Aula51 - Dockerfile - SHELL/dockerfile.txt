@@ -1,0 +1,5 @@
+FROM ubuntu
+
+SHELL ["/bin/bash", "-c"]
+
+RUN rouch file-{0..10}
