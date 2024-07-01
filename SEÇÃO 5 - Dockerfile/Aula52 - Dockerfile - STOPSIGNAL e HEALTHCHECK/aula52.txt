@@ -1,0 +1,12 @@
+Dockerfile - STOPSIGNAL e HEALTHCHECK
+
+STOPSIGNAL = Serve para alterar o sinal que o docker vai enviar para o container quando paramos um container.
+
+HEALTHCHECK - Serve para definir um comando que o docker verifique se o container está saudavel ou não.
+
+HEALTHCHECK aceita as seguintes opções:
+
+--interval=DURATION (default 30s)
+--timeout=DURATION (default 30s)
+--start-period=DURATION (default 0s)
+--retries=N (default = 3)
