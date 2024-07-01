@@ -1,0 +1,9 @@
+docker login
+
+Quando criar uma imagem e querer armazenar ela em um registry, irá precisar efetuar o login, antes de subir a imagem para o registry.
+
+Ex:
+
+docker login [OPTIONS] [SERVER]
+
+Entrar no DockerHUB e riar um token para realizar o login.
