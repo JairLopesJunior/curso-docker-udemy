@@ -1,0 +1,8 @@
+Dockerfile - ONBUILD
+
+ONBUILD = É um parametro usado para definir parametros que correram/existiram em um futuro dockerfile que utilizar a imagem que será construida.
+
+Exemplo de uso:
+
+ONBUILD <INSTRUCTION> = Esta instrução somente será utilizada quando algum utilizar a imagem com base desta imagem, ou seja, quando um dockerfile 
+chamar outro dentro.

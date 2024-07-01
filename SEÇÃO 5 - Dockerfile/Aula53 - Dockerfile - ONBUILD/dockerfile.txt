@@ -1,0 +1,5 @@
+FROM nginx:1.23.3-alpine
+
+ONBUILD WORKDIR /usr/share/nginx/html
+ONBUILD WORKDIR index.html .
+ONBUILD WORKDIR date +"%T" >> index.html
