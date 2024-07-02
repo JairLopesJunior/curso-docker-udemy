@@ -1,0 +1,15 @@
+docker image tag/push
+
+docker image tag = Serve para alterar o nome e a tag de uma imagem.
+
+docker image push = Serve para fazer upload de uma imagem para  container registry.
+
+
+Alterando o nome e tag da imagme:
+
+> docker image tag alpine:curl-1.0 novoNome = Na realidade o nome não será alterado e sim um outro nome para a mesma imagem.
+
+
+
+Subindo a imagem para o DockerHUB:
+> docker image push nomeDaImagem:tag
