@@ -1,0 +1,8 @@
+docker image history
+
+É um comando que serve para investigação do historico de uma imagem.
+
+Na documentação não mostra que o FROM cria uma camada na imagem, por que na realidade ele não cria uma camada diretamente ele puxa as camadas
+que estavam presentes na imagem anterior.
+
+> docker image history nginx:1.23.3-alpine 
