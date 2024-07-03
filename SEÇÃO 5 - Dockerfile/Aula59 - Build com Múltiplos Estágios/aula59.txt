@@ -1,0 +1,11 @@
+Build com Múltiplos Estágios
+
+
+Se a imagem final ficar muito grande, pode ser um problema de performance para a aplicação final e para resolver isso é possivel criar um Dockerfile com múltiplos 
+estágios e alguns passos estaram presentes em algumas imagens temporarias e nao na imagem final, ou seja, não criara camadas na imagem e assim
+a mesma não ficará tão grande.
+
+
+AS qualquerNome = Para adicionar nome ao stage
+
+--from = Para referenciar a imagem anterior
