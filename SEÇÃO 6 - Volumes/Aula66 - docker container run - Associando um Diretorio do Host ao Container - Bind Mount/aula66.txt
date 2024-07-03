@@ -1,0 +1,6 @@
+docker container run - Associando um Diretório ao Container (Bind Mount)
+
+Esta associação é diferente de um volume por que com o volume é criado com o comando.
+
+Comando para associar
+> docker container run -it --rm --name alpine -v caminhoDiretorio:caminhoDentroDocker nomeImagem
