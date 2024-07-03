@@ -1,0 +1,3 @@
+Encontrando um Volume em um Host Linux
+
+"/var/lib/docker/volumes/meu-volume/_data" = Caminho onde fica o volume
