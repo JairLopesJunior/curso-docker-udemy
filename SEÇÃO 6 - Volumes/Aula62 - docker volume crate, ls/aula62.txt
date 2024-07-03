@@ -1,0 +1,19 @@
+docker volume create/ls
+
+O volume nada mais é do que um diretorio dentro da maquina Linux que está correndo o docker.
+
+
+Comando para criar um volume
+> docker volume create
+
+Se não for passado o nome, o docker criara um nome aleatorio para o volume.
+
+Existem 2 formas de colocar nome em um volume:
+
+> docker volume create nomeVolume
+> docker volume create --name nomeVolume
+
+
+
+Comando para verificar todos os volumes
+> docker volume ls
