@@ -1,0 +1,20 @@
+Cache no Build
+
+Na criação de uma imagem o docker utiliza o CACHE sempre que possivel.
+
+
+
+
+Comando para não utilizar o cache:
+> docker image build -t ubuntu:cache-3 --no-cache .
+
+
+
+
+O docker consegue realizar o CACHE se existir uma imagem com as mesmas camadas ou pelo menos algumas das primeiras camadas
+forem iguais.
+
+
+
+Comando para usar CACHE de uma imagem definida.
+> docker image build -t ubuntu:cache --cache-from localNomeImagem
