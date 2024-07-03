@@ -1,0 +1,9 @@
+docker container attach
+
+Este comando serve para associar o terminal ao terminal de um container que esta rodando e que é colocado no modo dettach, ou seja,
+é colocado para rodar em segundo plano.
+
+
+
+Comando para entrar no container, e passar qual tecla utilizar para sair do container sem parar o mesmo.
+> docker container attach --detach-keys-ctrl-c nomeContainer
