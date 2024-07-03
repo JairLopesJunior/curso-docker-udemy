@@ -1,0 +1,7 @@
+docker volume inspect/rm
+
+> docker volume inspect nomeVolume = Serve para inspecionar um volume
+
+Mountpoint = É o diretorio na maquina Linux onde este diretorio esta criado.
+
+> docker volume rm nomeVolume = Serve para remover um volume existente
