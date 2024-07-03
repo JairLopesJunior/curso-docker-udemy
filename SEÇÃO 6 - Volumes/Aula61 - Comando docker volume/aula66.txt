@@ -1,0 +1,13 @@
+Comando docker volume
+
+
+Comando para ver os subcomandos
+> docker volume --help
+
+Existem 5 subcomandos:
+
+create
+inspect
+ls
+prune
+rm
