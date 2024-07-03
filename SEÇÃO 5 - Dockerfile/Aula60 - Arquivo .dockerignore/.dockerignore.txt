@@ -1,0 +1,4 @@
+Dockerfile
+README.md
+file*
+dir/file-a

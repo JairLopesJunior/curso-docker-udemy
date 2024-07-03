@@ -1,0 +1,3 @@
+Arquivo .dockerignore
+
+É um arquivo útil quando queremos excluir do nosso contexto alguns arquivos que não fazem sentido estar presente.
