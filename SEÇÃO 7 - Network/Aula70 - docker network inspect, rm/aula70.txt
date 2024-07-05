@@ -1,0 +1,5 @@
+docker network inspect/rm
+
+> docker network inspect = Serve para inspecionar a network
+
+> docker network rm nomeNetwork = Serve para remover uma Network
