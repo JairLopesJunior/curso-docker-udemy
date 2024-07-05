@@ -1,0 +1,4 @@
+docker network run - Conectando Container á uma Network
+
+Comando para criar um container junto com uma network
+> docker container run -dt host --entrypoint /bin/sh --network host alpine:3.17
