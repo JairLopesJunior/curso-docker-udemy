@@ -1,0 +1,9 @@
+docker network create/ls
+
+As networks servem para isolar os containers para que eles só se comuniquem com que desejar.
+
+create = Cria uma nova network
+> docker network create minha-bridge
+
+ls = Lista as networks presentes no HOST
+> docker network ls
