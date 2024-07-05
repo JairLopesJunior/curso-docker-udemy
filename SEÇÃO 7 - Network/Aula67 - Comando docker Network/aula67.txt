@@ -1,0 +1,13 @@
+Comando docker network
+
+> docker network --help = Para verificar os subcomandos.
+
+Existe 7 subcomandos:
+
+connect
+create
+disconnect
+inspect
+ls
+prume
+rm
