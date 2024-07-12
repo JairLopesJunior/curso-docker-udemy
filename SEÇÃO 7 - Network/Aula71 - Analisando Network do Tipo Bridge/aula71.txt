@@ -1,0 +1,4 @@
+Analisando Network do Tipo Bridge
+
+
+Se criar um container na Network padrão e outro em uma Network criada eles não iram se comunicar entre si. (Network Bridge)
