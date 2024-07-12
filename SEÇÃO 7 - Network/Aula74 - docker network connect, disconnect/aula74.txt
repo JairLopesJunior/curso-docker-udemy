@@ -1,0 +1,7 @@
+docker network connect/disconnect
+
+docker network disconnect nomeNetwork(Ex: bridge) nomeContainer = Serve para disconectar uma Netowrk de um Container.
+
+docker network connect nomeNetwork(Ex: bridge) nomeContainer = Serve para conectar uma Netowrk de um Container.
+
+É possivel connectar mais de uma Network no mesmo container, inclusive cada Network irá conter um IP diferente.
