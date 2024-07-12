@@ -1,0 +1,5 @@
+Analisando Network do Tipo None
+
+None = Container sem nenhuma Network
+
+Ela não tem IP
