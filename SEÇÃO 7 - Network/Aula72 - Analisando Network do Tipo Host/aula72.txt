@@ -1,0 +1,3 @@
+Analisando Network do Tipo Host
+
+Se criar um container com a Network Host irá utilizar a mesma Network do Host e terá o mesmo IP do Host.
