@@ -1,0 +1,3 @@
+Comando docker compose
+
+> docker compose --help = Existe varios sub-comandos para o docker compose
