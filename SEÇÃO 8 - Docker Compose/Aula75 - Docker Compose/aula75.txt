@@ -1,0 +1,10 @@
+Docker Compose
+
+É uma feature que existe no Docker, é uma ferramenta que foi desenvolvida para que nós
+possamos definir aplicações completas multi-containers, ou seja, uma aplicação que irá
+contér varios containers, que iram interagir entre si de alguma maneira e que conseguimos gerir
+de uma forma mais simples utilizando apenas um arquivo yml.
+
+O Docker Compose é um plugin adicional do Docker e quando voce instala o Docker no Windows ou Mac
+voce é obrigado a instalar um Docker Desktop então já tem por padrão o Docker Compose, porem no Linux
+se não instalar o Docker Desktop irá ter que instalar o Docker Compose separadamente.
